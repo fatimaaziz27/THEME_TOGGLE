@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Web Elements</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Interactive Web Elements</h1>
+
+        <p id="message">
+            Click the buttons to interact with the page.
+        </p>
+
+        <!-- Dynamic Text -->
+        <div class="card">
+            <h2>Dynamic Text</h2>
+
+            <p id="text">
+                Hello! Welcome to my webpage.
+            </p>
+
+            <button onclick="changeText()">
+                Change Text
+            </button>
+        </div>
+
+
+        <!-- Counter -->
+        <div class="card">
+            <h2>Counter</h2>
+
+            <p id="count">0</p>
+
+            <button onclick="increaseCount()">
+                +
+            </button>
+
+            <button onclick="decreaseCount()">
+                -
+            </button>
+
+            <button onclick="resetCount()">
+                Reset
+            </button>
+        </div>
+
+
+        <!-- Random Number -->
+        <div class="card">
+            <h2>Random Number</h2>
+
+            <p id="randomNumber">
+                Click the button
+            </p>
+
+            <button onclick="generateRandomNumber()">
+                Generate Number
+            </button>
+        </div>
+
+
+        <!-- Color Changer -->
+        <div class="card">
+            <h2>Background Color</h2>
+
+            <button onclick="changeColor()">
+                Change Color
+            </button>
+        </div>
+
+
+        <!-- Theme Toggle -->
+        <div class="card">
+            <h2>Theme Toggle</h2>
+
+            <button onclick="toggleTheme()">
+                Dark / Light Mode
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
