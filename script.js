@@ -4,6 +4,8 @@ function changeText() {
         "The text has been changed using JavaScript!";
 }
 
+
+
 // Counter
 let count = 0;
 function increaseCount() {
@@ -22,11 +24,14 @@ function resetCount() {
 }
 
 
+
 // Random Number
 function generateRandomNumber() {
     let number = Math.floor(Math.random() * 100) + 1;
     document.getElementById("randomNumber").innerText = number;
 }
+
+
 
 // Background Color
 function changeColor() {
@@ -40,6 +45,7 @@ function changeColor() {
     let randomIndex = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomIndex];
 }
+
 
 
 // Theme Toggle
