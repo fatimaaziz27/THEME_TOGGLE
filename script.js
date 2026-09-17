@@ -43,8 +43,6 @@ function changeColor() {
 
 
 // Theme Toggle
-
 function toggleTheme() {
-
     document.body.classList.toggle("dark-mode");
 }
