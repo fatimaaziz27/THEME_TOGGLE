@@ -61,16 +61,13 @@ button:hover {
 
 
 /* Dark Theme */
-
 .dark-mode {
     background-color: #181818;
     color: white;
 }
-
 .dark-mode .card {
     background-color: #252525;
 }
-
 .dark-mode #message {
     color: #ccc;
 }
