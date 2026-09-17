@@ -1,34 +1,23 @@
 // Dynamic Text
-
 function changeText() {
-
     document.getElementById("text").innerText =
         "The text has been changed using JavaScript!";
 }
 
-
 // Counter
-
 let count = 0;
-
 function increaseCount() {
-
     count++;
-
     document.getElementById("count").innerText = count;
 }
 
 function decreaseCount() {
-
     count--;
-
     document.getElementById("count").innerText = count;
 }
 
 function resetCount() {
-
     count = 0;
-
     document.getElementById("count").innerText = count;
 }
 
