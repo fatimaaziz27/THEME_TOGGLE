@@ -21,23 +21,6 @@ It was created to practice JavaScript DOM manipulation, event handling, CSS styl
 * Event handling
 * CSS class switching
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-
-## Project Structure
-
-```text
-THEME_TOGGLE/
-│
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
-```
-
 ## Purpose
 
 This project was created as a **learning and practice project** to understand how HTML, CSS, and JavaScript work together to create interactive web pages.
