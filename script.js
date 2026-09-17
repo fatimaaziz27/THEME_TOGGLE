@@ -29,9 +29,7 @@ function generateRandomNumber() {
 }
 
 // Background Color
-
 function changeColor() {
-
     let colors = [
         "#E3F2FD",
         "#FFF3E0",
@@ -39,9 +37,7 @@ function changeColor() {
         "#FCE4EC",
         "#F3E5F5"
     ];
-
     let randomIndex = Math.floor(Math.random() * colors.length);
-
     document.body.style.backgroundColor = colors[randomIndex];
 }
 
